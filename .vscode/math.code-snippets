@@ -1,0 +1,80 @@
+{
+  "sup": {
+    "scope": "latex",
+    "prefix": "^",
+    "body": ["^{$1}"],
+    "description": ""
+  },
+  "sub": {
+    "scope": "latex",
+    "prefix": "_",
+    "body": ["_{$1}"],
+    "description": ""
+  },
+  "multiply": {
+    "scope": "latex",
+    "prefix": "*",
+    "body": ["\\cdot"]
+  },
+  "times": {
+    "scope": "latex",
+    "prefix": "x",
+    "body": ["\\times"]
+  },
+  "fraction": {
+    "scope": "latex",
+    "prefix": "/",
+    "body": ["\\frac{$1}{$2}"]
+  },
+  "not-equal": {
+    "scope": "latex",
+    "prefix": "!=",
+    "body": ["\\ne"]
+  },
+  "less-or-equal": {
+    "scope": "latex",
+    "prefix": "<=",
+    "body": ["\\le"]
+  },
+  "greater-or-equal": {
+    "scope": "latex",
+    "prefix": ">=",
+    "body": ["\\ge"]
+  },
+  "sqrt": {
+    "scope": "latex",
+    "prefix": "\\sqrt",
+    "body": ["\\sqrt{$1}"]
+  },
+  "sum": {
+    "scope": "latex",
+    "prefix": "\\sum",
+    "body": ["∑_{$1}^{$2}"],
+    "description": ""
+  },
+  "ellipsis": {
+    "scope": "latex",
+    "prefix": "\\...",
+    "body": ["\\ldots"]
+  },
+  "ast": {
+    "scope": "latex",
+    "prefix": "\\*",
+    "body": ["\\ast"]
+  },
+  "abs": {
+    "scope": "latex",
+    "prefix": "\\abs",
+    "body": ["|$1|"]
+  },
+  "overline": {
+    "scope": "latex",
+    "prefix": "\\overline",
+    "body": ["\\overline{$1}"]
+  },
+  "space": {
+    "scope": "latex",
+    "prefix": "\\ ",
+    "body": ["\\quad"]
+  }
+}

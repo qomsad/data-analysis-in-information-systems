@@ -1,0 +1,42 @@
+{
+  "en-dash": {
+    "scope": "markdown",
+    "prefix": "--",
+    "body": ["–"]
+  },
+  "em-dash": {
+    "scope": "markdown",
+    "prefix": "---",
+    "body": ["—"]
+  },
+  "lquote": {
+    "scope": "markdown",
+    "prefix": "<<",
+    "body": ["«"]
+  },
+  "rquote": {
+    "scope": "markdown",
+    "prefix": ">>",
+    "body": ["»"]
+  },
+  "nb-space": {
+    "scope": "markdown",
+    "prefix": "&nbsp;",
+    "body": ["&nbsp;"]
+  },
+  "em-space": {
+    "scope": "markdown",
+    "prefix": "&emsp;",
+    "body": ["&emsp;"]
+  },
+  "ellipsis": {
+    "scope": "markdown",
+    "prefix": "&...",
+    "body": ["…"]
+  },
+  "nb-hyphen": {
+    "scope": "markdown",
+    "prefix": "&-",
+    "body": ["‑"]
+  }
+}
